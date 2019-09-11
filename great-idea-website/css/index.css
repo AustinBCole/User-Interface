@@ -64,3 +64,22 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body {
+	/* top, right, bottom, left */
+	margin: 0 auto;
+	width: 975px;
+	
+}
+a {
+	color: lightgray;
+	text-decoration: none;
+	margin: 35px;
+}
+nav {
+	display: inline-block;
+}
+.logo {
+	/* top, right, left, bottom */
+	display: inline-block;
+	margin: 20px 0px 0px 0px;
+}
