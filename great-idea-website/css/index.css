@@ -64,33 +64,41 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-body {
-	/* top, right, bottom, left */
-	margin: 0 auto;
-	width: 1200px;
-	
-}
 a {
-	color: lightgray;
+	/* top, right, bottom, left */
+	margin: 0px 20px 20px 20px;
 	text-decoration: none;
-	margin: 35px;
+	color: black;
 }
-h1 {
-	font-size: 60px;
+a:link {
+	text-align: center;
+	line-height: 32px;
+}
+body {
+	margin: 0 auto;
+	width: 900px;
+	display: flex;
+	flex-flow: column nowrap;
+	align-content: center;
 }
 nav {
-	display: inline-block;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	text-align: center;
 }
-.header-img {
-	display:inline-block;
-}
-.header-slogan {
-	display: inline-block;
-	/* top, right, bottom, left */
-	padding: 0px 0px 300px 0px;
-	
-}
+
 .logo {
-	display: inline-block;
+	margin: 0px 0px 0px 15px;
+	height: 32px;
+}
+.navbar {
+	display: flex;
+	flex-flow: row;
 	margin: 20px 0px 0px 0px;
+}
+.slogan {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-flow: row wrap;
 }
