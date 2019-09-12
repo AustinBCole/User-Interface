@@ -66,9 +66,9 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 a {
 	/* top, right, bottom, left */
-	margin: 0px 20px 20px 20px;
+	margin: 0px 20px 20px 30px;
 	text-decoration: none;
-	color: black;
+	color: lightgray;
 }
 a:link {
 	text-align: center;
@@ -76,10 +76,22 @@ a:link {
 }
 body {
 	margin: 0 auto;
-	width: 900px;
+	width: 1000px;
 	display: flex;
 	flex-flow: column nowrap;
 	align-content: center;
+}
+button {
+	width: 150px;
+	font-size: 20px;
+	/* top, right, bottom, left */
+	margin: 0px 0px 0px 67px;
+	background: white;
+	border-color: black;
+}
+h1 {
+	font-size: 80px;
+	text-align: center;
 }
 nav {
 	flex-flow: row nowrap;
@@ -88,7 +100,7 @@ nav {
 }
 
 .logo {
-	margin: 0px 0px 0px 15px;
+	margin: 0px 0px 0px 42px;
 	height: 32px;
 }
 .navbar {
@@ -99,6 +111,17 @@ nav {
 .slogan {
 	display: flex;
 	align-content: center;
-	justify-content: center;
+	justify-content: space-around;
 	flex-flow: row wrap;
+	margin: 67px 0px 0px 0px;
+	width: 900px;
+	border-bottom: solid black 1px;
+	padding-bottom: 70px;
+}
+.slogan-text {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	width: 300px;
+	align-content: center;
 }
