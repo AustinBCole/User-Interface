@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5 {
 body {
 	/* top, right, bottom, left */
 	margin: 0 auto;
-	width: 975px;
+	width: 1200px;
 	
 }
 a {
@@ -75,11 +75,22 @@ a {
 	text-decoration: none;
 	margin: 35px;
 }
+h1 {
+	font-size: 60px;
+}
 nav {
 	display: inline-block;
 }
+.header-img {
+	display:inline-block;
+}
+.header-slogan {
+	display: inline-block;
+	/* top, right, bottom, left */
+	padding: 0px 0px 300px 0px;
+	
+}
 .logo {
-	/* top, right, left, bottom */
 	display: inline-block;
 	margin: 20px 0px 0px 0px;
 }
